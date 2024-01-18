@@ -1,0 +1,37 @@
+#include "CmdSparkerRes.h"
+
+1								24		DISCARDABLE	"Release\\Manifest.xml"
+MAIN_ICON                     ICON		DISCARDABLE	"Res\\icon.ico"
+
+
+
+
+IDR_VERSION VERSIONINFO
+FILEVERSION 1,1,0,3
+PRODUCTVERSION 1,1,0,3
+FILEFLAGSMASK 0x2L
+FILEFLAGS 0x0L
+FILEOS 0x4L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+BEGIN
+	BLOCK "StringFileInfo"
+	BEGIN
+		BLOCK "080403A8"
+		BEGIN
+			VALUE "Comments", "替计划实验室 Plan T Labs\0"
+			VALUE "CompanyName", "Plan T Labs\0"
+			VALUE "FileDescription", "CmdSparker 快捷启动器\0"
+			VALUE "FileVersion", "1.01.0.0003\0"
+			VALUE "InternalName", "CmdSparker\0"
+			VALUE "LegalCopyright", "PLAN T LABS Copyright ? 2023\0"
+			VALUE "OriginalFilename", "CmdSparker.exe\0"
+			VALUE "ProductName", "CmdSparker\0"
+			VALUE "ProductVersion", "1.01.0.0003\0"
+		END
+	END
+	BLOCK "VarFileInfo"
+	BEGIN
+		VALUE "Translation", 0x0804, 936
+	END
+END
